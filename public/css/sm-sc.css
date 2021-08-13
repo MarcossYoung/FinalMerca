@@ -1,0 +1,10 @@
+.class-burger {
+    display: none;
+}
+
+#main-nav{
+    display:initial;
+}
+.product-padding{
+    width: 50%;
+}

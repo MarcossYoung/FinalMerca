@@ -1,0 +1,59 @@
+body{
+    font-family: roboto;
+}
+section{
+    width:90%;
+    text-align: center;
+    margin: 0 5%;
+}
+
+#main-content{
+    padding:0 5%;
+
+}
+#main-nav{
+    display:none;
+}
+#main-nav ul{
+    list-style-type: none;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.W-50{
+    width: 50%;
+}
+.flex-header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+.flex-head{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    
+}
+
