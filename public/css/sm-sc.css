@@ -1,10 +1,24 @@
 .class-burger {
     display: none;
 }
-
 #main-nav{
     display:initial;
 }
 .product-padding{
     width: 50%;
+}
+.article-foot .class-desc{
+    display: none;
+    }
+.product:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.product:hover .brd-logo{
+    transform: rotate(360deg);
+}
+.product:hover .class-desc{
+    display: initial;
+}
+.product .brd-logo{
+    transition: transform 450ms;
 }

@@ -56,4 +56,10 @@ main section article i{
     align-items: center;
     
 }
+.W-30{
+    width: 30%;
+}
 
+.W-30:hover .small-logo{
+    color:violet;
+}
