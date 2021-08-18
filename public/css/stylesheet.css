@@ -60,13 +60,27 @@
 .product-padding{
     padding: 15px;
 }
-.main-label{
+.form-input .main-label {
+    display: block;
     font-size: 16px;
-    color:rgb(31, 26, 26);
     font-weight: bold;
 }
-.form-input{
-    border: 1px darkgray;
-    
+
+.form-input input {
+    width: 100%;
+}
+.form-input input[type="checkbox"],
+.form-input input[type="radio"] {
+    width: auto;
 }
 
+.form-input {
+    margin-bottom: 23px;
+}
+
+.error {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: red;
+    font-size: 10px;
+}
