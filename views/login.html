@@ -33,20 +33,18 @@ rel="stylesheet" />
 </head>
 <body class="Bg-lightgrey">
     <header class="Bg-yellow">
-        <div class="flex">
+        <div class="flex ">
         <img src="img/logo-mercado-liebre.svg" class="img product-padding W-50" alt="Mercado Liebre Logo">
         <div class="product-padding W-50"><input type="text" width="70%" placeholder="Buscar"><button type="button" width="30%" class="fas fa-search "></button></div>
         <p><i class="fas fa-hand-holding-usd comment"></i> compra en cuotas sin interes</p>
     </div>
       
         <nav id="main-nav" >
-            <ul class="flex-head W-50">
+            <ul class="flex-head ">
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
                 <li><a href="">Ayuda</a></li>
-                </ul>
-            <ul class="flex-header ">
                 <li><a href="">Crea tu cuenta<i class="fas fa-address-card"></i> </a></li>
                 <li><a href="">Ingresa<i class="fas fa-sign-in-alt"></i></a></li>
                 <li><a href="">Mis compras</a></li>
@@ -59,9 +57,19 @@ rel="stylesheet" />
     </header> 
     <main>
         <form>
-            <input type="text" value="nombre">
-            <input type="password" value="Contraseña">
-        </form>
+            <div class="container text-center product-wrapper">
+                <h1 class="main-title">Login</h1>
+                <p class="sub-title">Usuario:</p>
+                <input id="name" type="text" name="name" placeholder="Usuario">
+                <p class="sub-title">Contrasena:</p>
+                <input id="password" type="password" name="password" placeholder="Contrasena">
+                <p>no tenes ususario?</p>
+            
+                <form>
+                <a href="/Registro">Registrate ahora!</a>
+                </form>
+            </div>
+            </form>
     </main>
     <footer class="txt-center flex"> 
         <div class="W-30">

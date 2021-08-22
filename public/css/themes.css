@@ -43,16 +43,11 @@ main section article i{
 .W-50{
     width: 50%;
 }
-.flex-header{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 
-}
 .flex-head{
     display:flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     
 }
